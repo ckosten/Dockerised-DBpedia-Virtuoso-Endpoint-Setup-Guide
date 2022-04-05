@@ -18,8 +18,8 @@ Get the download commands from the following repository:
 git clone https://github.com/AKSW/DBpedia-docker
 ```
 
-You will need to edit the Makefile, specifying the urls or the dataset version you wish to download. I provide my adapted version of the Makefile in this repository. 
-Now to download the files and ontology, run
+You will need to edit the Makefile, specifying the urls or the dataset version you wish to download. I provide my adapted version of the [Makefile](Makefile) in this repository 
+Now to download the files and ontology, specify the year of the version of dbpedia that you want in the Makefile and run
 ```sh 
 make download
 ```
