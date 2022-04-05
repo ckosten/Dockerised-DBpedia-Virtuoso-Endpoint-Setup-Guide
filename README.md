@@ -80,7 +80,7 @@ ld_add('dumps/{ontology-filename}.owl', 'http://dbpedia.org/resource/classes#');
 Now, we can start loading the data (RDF triples) from the ttl files. To do so, run:
 
 ```sh 
-ld_dir_all(‘dumps/’, ’*.*’, ’http://dbpedia.org/’);
+ld_dir_all(‘dumps/’, ’*.ttl*’, ’http://dbpedia.org/’);
 ```
 
 In the above command, the first argument is the path of the `dumps/` repository, second specifies the files to be loaded (*.* - everything in dumps, .ttl - for only ttl files in dumps, etc); and last argument is the named graph where you want all your data to be loaded. _Please make sure all your .ttl files are in the `/dumps` repository!!
