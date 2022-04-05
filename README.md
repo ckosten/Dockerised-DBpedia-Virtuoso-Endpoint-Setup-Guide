@@ -6,8 +6,8 @@
 
 To setup your endpoint with custom files
 
-- Download your favorite version of DBpedia dataset (from the [https://downloads.dbpedia.org/{release-year}/])
-- I downloaded the .bz2 files from `/core/` & `/core-i18n/en/` locations to setup my english version of DBpedia. You can choose yours!
+- Choose which version of DBpedia dataset you want to setup from the [https://downloads.dbpedia.org/{release-year}/]
+- There are two different versions you can choose from `/core/` & `/core-i18n/en/` for the English version of DBpedia
 - If you want to run the standard version of DBpedia (i.e. what you find at the dbpedia endpoint), use `/core/` the `i18n` are localized versions for other languages. If you want more info on this: https://joernhees.de/blog/tag/virtuoso/ 
 - unpack (i.e. unzip the ttl or nt files) the downloaded files. [skip the next script-downloading part]
 
