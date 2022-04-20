@@ -89,7 +89,7 @@ In the above command, the first argument is the path of the `dumps/` repository,
 Then run the rdf loader to start loading the triples in to the database, run:
 ```sh 
 rdf_loader_run();
-chekpoint;
+checkpoint;
 ```
 
 
